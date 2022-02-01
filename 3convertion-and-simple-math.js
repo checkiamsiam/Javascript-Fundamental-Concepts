@@ -14,6 +14,8 @@ var num = 4.502554
 var num = parseInt(num) // dosomik er porer sonkkhe nibe na
 var numFloat = parseFloat(num) //dosomik er porer sonkkha soho nibe
 var numtoFixed = num.toFixed(3)// dosomik er pore koto sonkkha nibe ta define kora lagbe
-var numAbsulute =Math.abs(num) //ja ase original man naoya hoy
+var numAbsulute =Math.abs(num) //ja ase original man naoya hoy and always positive number nibe mane -5 ke abs korle ans hobe 5.
 var numCeil =Math.ceil(num) // joto sonkkha thakbe tar poroborti purnosonkha niye nibe
+var numberFloor = math.floor(num) // dosomik er porer sonkha bad diye purnosonkha nibe
 var numRound =Math.round(num) //dosomik er por 5 othoba tar besi thakle poroborti purmo sonkkha nibe 5 er soto hole sonkhatir dosomik er porer sonkha bad diye sudumatro purn0 sonkhati nibe.
+math.random() // random number generate korbe
